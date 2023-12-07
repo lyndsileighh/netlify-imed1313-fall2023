@@ -1,0 +1,88 @@
+@import "global.css";
+@import "main.css";
+
+.head-icon {
+  background-color:black
+}
+
+.fa-row {
+  background-color: turquoise;
+  padding: 20px;
+}
+
+.fa-row-icon {
+  font-size: 80px;
+  color: #ffffff;
+}
+
+.first-paragraph-div {
+  position: relative;
+  background-color: #fffffd;
+  color: black;
+  font-family: "Fuggles", cursive;
+  font-size: 24px;
+  padding: 20px;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.first-paragraph-img {
+  position: relative;
+  float: left;
+  padding-right: 18px;
+}
+
+@media (max-width: 900px) {
+  .first-paragraph-img {
+    width: 100%;
+    float: none;
+    padding-right: 0px;
+  }
+}
+
+.cropped {
+  width: 200px;
+  height: 200px;
+  margin-top: 15px;
+  border: 10px solid black;
+  clip-path: circle(50% at 50% 50%);
+  border-radius: 50%;
+}
+
+.card {
+  margin: 15px;
+}
+
+.btn-isotope {
+  color:#ffffff
+  border-radius: 0px;
+}
+
+.second-paragraph-div {
+  position: relative;
+  background-color: #fffffd;
+  color: black;
+  font-family: "Fuggles", cursive;
+  font-size: 24px;
+  padding: 20px;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.second-paragraph-img {
+  position: relative;
+  float: right;
+  padding-left: 18px;
+}
+
+@media (max-width: 900px) {
+  .second-paragraph-img {
+    width: 100%;
+    float: none;
+    padding-left: 0px;
+  }
+}
